@@ -8,7 +8,7 @@
 }
 
 body {
-    /*width: 1600px;*/
+    width: 1600px;
     margin: 0 auto;
 }
 
@@ -23,24 +23,44 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 80px;
+    /*max-width: 1600px;*/
 }
+
+.section-heading {
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.7;
+}
+
+section {
+    width: 1280px;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* hero styles */
 
 .hero {
     background-color: #C6E4D6;
-    /*margin: 120px 160px;*/
     border-radius: 24px;
     height: 560px;
-    width: 1280px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /*gap: 64px;*/
-    padding: 0 100px;
+    /*padding: 0 100px;*/
 }
 
 .hero-text-content {
-    /*width: 326px;*/
-    /*padding-left: 60px;*/
+
 }
 
 .hero-subtitle {
@@ -70,4 +90,86 @@ main {
 .hero-img {
     padding-right: 100px;
     width: 400px;
+}
+
+/* vision styles */
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.vision-description {
+}
+
+.vision-card-container {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    gap: 24px;
+}
+
+.vision-card {
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.vision-card:nth-child(3n + 1) {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.vision-card:nth-child(3n + 2) {
+    background-color: rgba(9, 161, 92, 0.2);
+}
+
+.vision-card:nth-child(3n + 3) {
+    background-color: rgba(255, 194, 57, 0.2);
+}
+
+.vision-card-text {
+}
+
+.vision-card-img img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.vision-card-title {
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 0.8;
+}
+
+.vision-card-description {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.vision-card-btn {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #006A50;
+}
+
+.green-btn {
+    background-color: #09A15C;
+}
+
+.blue-btn {
+    background-color: #5490F5;
+}
+
+.yellow-btn {
+    background-color: #FFC239;
 }
