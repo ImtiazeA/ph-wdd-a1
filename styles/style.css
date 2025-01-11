@@ -188,6 +188,48 @@ button {
     transition: background-color 0.3s ease;
 }
 
+/*
+
+ vision quote
+
+*/
+
+.vision-quote-container {
+    padding: 48px 24px;
+    background-color: white;
+    border-radius: 16px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    background-image: url("../assets/quote-bg.png");
+    /*background-position: top left;*/
+    background-repeat: no-repeat;
+    background-position: 25px 25px;
+}
+
+.vision-quote-container .quote {
+
+    /*box-sizing: border-box;*/
+    /*background-clip: padding-box;*/
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.8;
+}
+
+.vision-quote-container .quote-author {
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.vision-quote-container .quote-author-title {
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.6;
+    margin-top: 8px;
+}
+
 
 /*
 
@@ -427,3 +469,5 @@ Recent News Styles
     background-color: #FB8C00;
     transition: background-color 0.4s ease;
 }
+
+
