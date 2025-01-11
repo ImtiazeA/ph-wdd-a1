@@ -86,11 +86,13 @@ button {
     padding: 17px 34px;
     background-color: #006A50;
     margin-top: 24px;
+    transition: background-color 0.4s ease;
 }
 
 
 .hero-button:hover {
     background-color: #FB8C00;
+    transition: background-color 0.3s ease;
 }
 
 .hero-img {
@@ -166,6 +168,7 @@ button {
     border-radius: 8px;
     padding: 10px 20px;
     background-color: #006A50;
+    transition: background-color 0.4s ease;
 }
 
 .green-btn {
@@ -182,6 +185,7 @@ button {
 
 .vision-card-btn:hover {
     background-color: #FB8C00;
+    transition: background-color 0.3s ease;
 }
 
 
@@ -307,10 +311,12 @@ Recent News Styles
     font-weight: bold;
     border: 1px solid rgba(14, 14, 14, 0.2);
     flood-color: rgba(14, 14, 14, 0.2);
+    transition: background-color 0.4s ease;
 }
 
 .donate .donate-amount-buttons button:hover {
     background-color: #C6E4D6;
+    transition: background-color 0.3s ease;
 }
 
 .donate form {
@@ -328,7 +334,6 @@ Recent News Styles
     text-align: center;
     width: 100%;
     font-size: 20px;
-
 }
 
 
@@ -340,10 +345,12 @@ Recent News Styles
     border-radius: 8px;
     padding: 17px 34px;
     background-color: #006A50;
+    transition: background-color 0.4s ease;
 }
 
 .donate form button:hover {
     background-color: #FB8C00;
+    transition: background-color 0.3s ease;
 }
 
 /*
@@ -359,7 +366,7 @@ Recent News Styles
     align-items: center;
     background-color: #C6E4D6;
     border-radius: 24px;
-    padding: 80px 100px;
+    padding: 80px 0;
     gap: 24px;
 }
 
@@ -369,4 +376,54 @@ Recent News Styles
     justify-content: center;
     align-items: center;
     gap: 16px;
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.newsletter input {
+    height: 55px;
+    border: none;
+    /*text-align: center;*/
+    font-size: 20px;
+    flex-grow: 2;
+    border-radius: 8px 0 0 8px;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.newsletter input::selection {
+    border: none;
+}
+
+.newsletter button {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    padding: 17px 34px;
+    background-color: #006A50;
+    flex-grow: 1;
+    height: 56px;
+    transition: background-color 0.4s ease;
+}
+
+.newsletter button:hover {
+    background-color: #FB8C00;
+    transition: background-color 0.4s ease;
 }
